@@ -33,7 +33,7 @@ _Note: Docker commands will generally have to be run with sudo access, so for th
 
    This command will build and start the Docker container defined in the `docker-compose.yml` file. If needed, you can change the port used for SSH within this file.
 
-   Wait until you see "Docker workspace is ready!" in the terminal. The Workspace is now ready (obviously 🙄).
+   Wait until you see "Docker workspace is ready!" in the terminal. As you might have guessed, the Workspace is now ready.
    
    Use <kbd>Ctrl</kbd> + <kbd>C</kbd> to stop the command.
 
