@@ -18,3 +18,8 @@ if [ -f "/workspace/.version" ]; then
     update-workspace
   fi
 fi
+
+alias pintos-debug='FORCE_SIMULATOR=--bochs PINTOS_DEBUG=1 pintos-test'
+if locale -a | grep -q 'C.utf8'; then
+     export LANG=C.utf8
+fi
